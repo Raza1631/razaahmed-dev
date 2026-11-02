@@ -67,13 +67,6 @@ Currently working at **ARY Services Limited**, contributing to web development a
 
 ---
 
-## 📊 GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Raza1631&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raza1631&layout=compact&theme=tokyonight&hide_border=true" height="170" />
-</p>
-
 ## 🤝 Let's Connect
 
 I'm always interested in connecting with developers, collaborating on exciting projects, and exploring remote opportunities.
