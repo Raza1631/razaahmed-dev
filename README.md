@@ -69,11 +69,10 @@ Currently working at **ARY Services Limited**, contributing to web development a
 
 ## 📊 GitHub Statistics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Raza1631&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Raza1631&layout=compact&theme=tokyonight&hide_border=true)
-
----
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Raza1631&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raza1631&layout=compact&theme=tokyonight&hide_border=true" height="170" />
+</p>
 
 ## 🤝 Let's Connect
 
