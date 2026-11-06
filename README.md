@@ -71,7 +71,7 @@ Currently working at **ARY Services Limited**, contributing to web development a
 
 I'm always interested in connecting with developers, collaborating on exciting projects, and exploring remote opportunities.
 
-- 📧 **Email:** [razaahmed.dev@gmail.com](mailto:razaahmed.dev@gmail.com)
+- 📧 **Email:** [razaahmed163101@gmail.com](mailto:razaahmed163101@gmail.com)
 - 💼 **LinkedIn:** [Raza Ahmed](https://www.linkedin.com/in/razaahmed-dev/)
 - 💻 **GitHub:** [@Raza1631](https://github.com/Raza1631)
 
