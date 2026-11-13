@@ -12,6 +12,10 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  basePath: "/raza-portfolio",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
