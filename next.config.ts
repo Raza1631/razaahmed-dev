@@ -12,7 +12,6 @@ const nextConfig: NextConfig = {
       },
     },
   },
-  basePath: "/raza-portfolio",
   images: {
     unoptimized: true,
   },
