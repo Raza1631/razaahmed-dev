@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
-import { profile, siteConfig, socials } from "@/data/profile";
+import { profile, siteConfig, socials, assets } from "@/data/profile";
 import { MotionProvider } from "@/components/layout/MotionProvider";
 import "./globals.css";
 
@@ -11,7 +11,6 @@ export const metadata: Metadata = {
     template: `%s | ${profile.name}`,
   },
   description: siteConfig.description,
-  image:siteConfig.image,
   keywords: [...siteConfig.keywords],
   authors: [{ name: profile.name, url: siteConfig.url }],
   creator: profile.name,
@@ -28,7 +27,7 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     images: [
       {
-        url: "/images/RazaAhmed.webp", // or better: create a dedicated 1200x630 og image
+        url: assets.ogImage, // or assets.photo temporarily
         width: 1200,
         height: 630,
         alt: `${profile.name} – Laravel Backend Developer`,
@@ -39,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    images: ["/images/RazaAhmed.webp"],
+    images: [assets.ogImage], // or assets.photo temporarily
   },
   robots: {
     index: true,
@@ -60,7 +59,6 @@ export const viewport: Viewport = {
   ],
 };
 
-// Applies a saved theme before first paint. Dark is the default.
 const themeScript = `try{var t=localStorage.getItem("theme");document.documentElement.dataset.theme=t==="light"?"light":"dark"}catch(e){}`;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -73,7 +71,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         name: profile.name,
         jobTitle: profile.title,
         description: siteConfig.description,
-        image: `${siteConfig.url}/images/RazaAhmed.webp`,
+        image: `${siteConfig.url}${assets.photo}`,
         url: siteConfig.url,
         address: {
           "@type": "PostalAddress",
@@ -102,9 +100,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         url: siteConfig.url,
         name: siteConfig.title,
         description: siteConfig.description,
-        publisher: {
-          "@id": `${siteConfig.url}/#person`,
-        },
+        publisher: { "@id": `${siteConfig.url}/#person` },
         inLanguage: "en-PK",
       },
       {
@@ -113,9 +109,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         name: "Laravel Backend Development Services",
         url: siteConfig.url,
         description: siteConfig.description,
-        provider: {
-          "@id": `${siteConfig.url}/#person`,
-        },
+        provider: { "@id": `${siteConfig.url}/#person` },
         areaServed: {
           "@type": "City",
           name: "Karachi",
