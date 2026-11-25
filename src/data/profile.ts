@@ -14,6 +14,7 @@ export const siteConfig = {
   description:
     "Raza Ahmed is a Laravel Backend Developer and PHP Developer in Pakistan, based in Karachi. He builds REST APIs and takes on freelance Laravel projects.",
   url: siteUrl,
+  image:"/images/RazaAhmed.webp"
   keywords: [
     "Laravel Developer in Karachi",
     "PHP Developer Pakistan",
