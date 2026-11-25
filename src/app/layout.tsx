@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     template: `%s | ${profile.name}`,
   },
   description: siteConfig.description,
+  image:siteConfig.image,
   keywords: [...siteConfig.keywords],
   authors: [{ name: profile.name, url: siteConfig.url }],
   creator: profile.name,
